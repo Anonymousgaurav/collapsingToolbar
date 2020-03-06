@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">CollapsingToolbar</string>
+    <string name="text_companiesName">Xyz Company</string>
+    <string name="text_companyID">AB1234</string>
+    <string name="text_companyWebsite">www.sk.com</string>
+    <string name="text_listOfManagers">List Of Managers</string>
+    <string name="text_employeeName">Gaurav Kumar</string>
+    <string name="text_employeeNumber">AB1234</string>
+    <string name="service_String">Services added: 0</string>
+    <string name="viewcart_String">View Cart</string>
+    <string name="string_No_Services">No Services Available</string>
+    <string name="text_activeEmployees">Active Employees</string>
+    <string name="text_activeEmployeesValue">2000</string>
+    <string name="text_answeredCalls">Answered Calls</string>
+    <string name="text_followUps">Followups</string>
+    <string name="text_unansweredCalls">Unanswered Calls</string>
+
+</resources>

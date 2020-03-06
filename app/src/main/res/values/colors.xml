@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6F99D5</color>
+    <color name="colorPrimaryDark">#6F99D5</color>
+    <color name="colorAccent">#6F99D5</color>
+
+    <color name="colorText">#3D4152</color>
+    <color name="colorhintText">#66000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="textColor">#3D4152</color>
+    <color name="viewColor">#1A000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="color_theme">#F26122</color>
+    <color name="blackwithopacity50">#80010101</color>
+    <color name="tab_background_color">#F8F8F8</color>
+    <color name="black">#010101</color>
+
+
+
+
+
+    <color name="color1">#9997D1</color>
+    <color name="color2">#6F99D5</color>
+
+
+
+
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:padding="12dp"
+        android:id="@+id/linear_companyList">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:src="@mipmap/ic_launcher_round"
+                android:id="@+id/img_company"
+                android:scaleType="fitXY"
+                android:layout_marginLeft="8dp"
+                />
+
+
+        </RelativeLayout>
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="-70dp">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_employeeName"
+                android:textSize="17sp"
+                android:textAlignment="viewStart"
+                android:id="@+id/tview_eName"
+                android:textColor="@color/colorText"
+                />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/text_employeeNumber"
+                android:id="@+id/tview_eNumber"
+                android:layout_below="@id/tview_eName"
+                android:textSize="13sp"
+                android:layout_marginTop="5dp"
+                android:textColor="@color/colorhintText"
+                />
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/viewColor"
+        android:layout_below="@id/linear_companyList"
+        />
+
+
+
+
+</RelativeLayout>
